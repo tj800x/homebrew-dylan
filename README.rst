@@ -1,7 +1,8 @@
 Dylan for Homebrew
 ##################
 
-This is the official `Dylan`_ tap for `homebrew`_.
+This is a fork of the official `Dylan`_ tap for `homebrew`_ to update it to version 2022.1.  
+Only the x86_64 architecture is supported at this time.
 
 Mac users can use these formulae to easily install and update Open Dylan
 and other tools.
@@ -13,21 +14,15 @@ If you don't have homebrew, install it from their `homepage`_.
 
 Then, add this tap::
 
-    brew tap dylan-lang/dylan
+	brew tap tj800x/dylan
 
 Installing
 ==========
 
 To install Open Dylan::
 
-    brew install opendylan
+	brew install --build-from-source tj800x/dylan/opendylan
 
-Updating
-========
-
-Simply run::
-
-    brew upgrade opendylan
 
 Thanks
 ======

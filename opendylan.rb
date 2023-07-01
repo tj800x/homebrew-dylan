@@ -3,10 +3,10 @@ require "formula"
 class Opendylan < Formula
   desc "Open Dylan implementation of Dylan programming language"
   homepage "https://opendylan.org/"
-  sha256 "4f2575881fa117c54bb8acce5bd1c67e65f4dafea11207828f6634b173961b18"
+  sha256 "7d77ddd3b6f815e6d77bba343175603b31a284e6d49ce864a1e278ac678a561c"
 
   stable do
-    url "https://opendylan.org/downloads/opendylan/2020.1/opendylan-2020.1-x86_64-darwin.tar.bz2"
+    url "https://github.com/dylan-lang/opendylan/releases/download/v2022.1.0/opendylan-2022.1-x86_64-darwin.tar.bz2"
 
     depends_on "bdw-gc"
   end
